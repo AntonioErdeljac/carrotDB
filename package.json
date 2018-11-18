@@ -1,6 +1,6 @@
 {
   "name": "carrotdb",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A JSON powered database",
   "main": "index.js",
   "scripts": {

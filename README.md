@@ -85,4 +85,4 @@ carrotDB.update(id, { fieldName: ... })
 
 ## Limits
 
-I created it in 1 hour so don't get any big ideas.
+I created it in 1 hour without testing so don't get any big ideas.
