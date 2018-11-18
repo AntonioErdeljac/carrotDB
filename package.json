@@ -1,0 +1,33 @@
+{
+  "name": "carrotdb",
+  "version": "1.0.0",
+  "description": "A JSON powered database",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AntonioErdeljac/carrotDB.git"
+  },
+  "keywords": [
+    "carrot",
+    "db",
+    "database",
+    "json",
+    "javascript",
+    "light"
+  ],
+  "author": "Antonio Erdeljac",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AntonioErdeljac/carrotDB/issues"
+  },
+  "homepage": "https://github.com/AntonioErdeljac/carrotDB#readme",
+  "dependencies": {
+    "eslint": "5.9.0",
+    "eslint-config-airbnb-base": "13.1.0",
+    "eslint-plugin-import": "2.14.0",
+    "fs-extra": "7.0.1"
+  }
+}
