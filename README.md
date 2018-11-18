@@ -2,7 +2,7 @@
 
 [![npm version](https://badge.fury.io/js/carrotdb.svg)](https://badge.fury.io/js/carrotdb)
 
-> a JSON based database for Node.js
+> a JSON based database for Node.js 🥕
 
 ```js
 carrotDB.create({ name: 'Antonio', surname: 'Erdeljac' });
