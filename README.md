@@ -20,9 +20,10 @@ const carrotDB = require('carrotdb');
 const app = async () => {
     try {
         await carrotDB.connect();
-        const createdRecord = await carrotDB.update({ name: 'Antonio', surname: 'Erdeljac' });
 
-        return console.log(updatedRecord);
+        const createdRecord = await carrotDB.create({ name: 'Antonio', surname: 'Erdeljac' });
+
+        return console.log(createdRecord);
     } catch (error) {
         return console.log(error);
     }
