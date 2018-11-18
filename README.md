@@ -59,6 +59,14 @@ Checks for a database & creates an empty folder with empty database if non exist
 carrotDB.connect()
 ```
 
+__carrotDB.get()__
+
+Finds an existing object in the database using id.
+
+```js
+carrotDB.get(id)
+```
+
 __carrotDB.create()__
 
 Assigns a new object to database with generated id.
